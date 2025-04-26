@@ -1,0 +1,67 @@
+{
+    "name": "MU Fest Concert 2025 - Collector's Edition",
+    "description": "Exclusive NFT capturing the annual university concert with perpetual 10% royalties for the creator. Includes high-definition video and cover art stored immutably on IPFS via Filebase.",
+    "image": "ipfs://QmZESmkSDqYZVW7LGXJCdZ7cy8nfEiYRgRvRRfXTBcx2BR", 
+    "animation_url": "ipfs://QmeUyg6wx4U4Xc4Q7j62L3af17FAm39kUdyN99wPxDrZjp",
+   
+    "royalty_info": {
+      "royalty_percentage": 10,
+      "royalty_address": "0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"
+    },
+    "attributes": [
+      {
+        "trait_type": "Event",
+        "value": "MU Fest Concert",
+        "display_type": "string"
+      },
+      {
+        "trait_type": "Year",
+        "value": "2025",
+        "display_type": "date"
+      },
+      {
+        "trait_type": "Edition",
+        "value": "Collector's",
+        "display_type": "string"
+      },
+      {
+        "trait_type": "Media",
+        "value": "Video",
+        "display_type": "string"
+      },
+      {
+        "trait_type": "Royalties",
+        "value": "10%",
+        "display_type": "percentage"
+      },
+      {
+        "trait_type": "Storage",
+        "value": "IPFS + Filebase",
+        "display_type": "string"
+      }
+    ],
+    "properties": {
+      "creators": [
+        {
+          "address": "0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266",
+          "share": 100
+        }
+      ],
+      "royalties": {
+        "seller_fee_basis_points": 1000, 
+        "fee_recipient": "0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"
+      },
+      "files": [
+        {
+          "uri": "ipfs://QmeUyg6wx4U4Xc4Q7j62L3af17FAm39kUdyN99wPxDrZjp",
+          "type": "video/mp4",
+          "name": "Concert Highlight Video"
+        },
+        {
+          "uri": "ipfs://QmZESmkSDqYZVW7LGXJCdZ7cy8nfEiYRgRvRRfXTBcx2BR",
+          "type": "image/png",
+          "name": "Cover Art"
+        }
+      ]
+    }
+  }
